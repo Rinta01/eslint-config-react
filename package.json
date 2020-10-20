@@ -1,0 +1,42 @@
+{
+  "name": "@me.rinta/eslint-config-react",
+  "version": "1.0.0",
+  "description": "My eslint config for react projects",
+  "main": "index.js",
+  "peerDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "7.7.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "eslint-plugin-simple-import-sort": "5.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "10.1.0",
+    "eslint": "7.7.0",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "eslint-plugin-simple-import-sort": "5.0.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rinta01/eslint-config-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "react",
+    "config"
+  ],
+  "author": "me.rinta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rinta01/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/Rinta01/eslint-config-react#readme"
+}
