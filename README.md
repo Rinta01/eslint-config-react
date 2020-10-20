@@ -53,3 +53,9 @@ Once you have done. You probably want your editor to lint and fix for you.
   }
 }
 ```
+
+## With Create React App
+
+1. You need to eject first `npm run eject` or `yarn eject`
+1. Run `npx install-peerdeps --dev @me.rinta/eslint-config-react`
+1. Open your `package.json` and replace `"extends": "react-app"` with `"extends": ["@me.rinta/eslint-config-react"]`
