@@ -1,6 +1,6 @@
 {
   "name": "@me.rinta/eslint-config-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My eslint config for react projects",
   "main": "index.js",
   "peerDependencies": {
